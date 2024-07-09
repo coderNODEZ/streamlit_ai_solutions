@@ -101,14 +101,14 @@ uploaded_file = row2_col1_tile .file_uploader("Upload an image", \
 
 if uploaded_file != '' and uploaded_file is not None:
     image = Image.open(uploaded_file)
-    row2_col1_tile .image(uploaded_file, width=400)
-    row2_col1_tile .write('')
+    row2_col1_tile.image(uploaded_file, width=300)
+    row2_col1_tile.write('')
 
-    with st.spinner("In Progress"):
-        
-        remove_clicked2 = row2_col1_tile .button("Remove Background", \
-                                    key='remove_button2', \
-                                        on_click=remove_background(image_path2, 2))
+    with row2_col1_tile:
+        with st.spinner("In Progress"):
+            remove_clicked2 = row2_col1_tile .button("Remove Background", \
+                                        key='remove_button2', \
+                                            on_click=remove_background(image, 2))
 
 row2_col2_tile = row2_col2.container(height=800, border=True)
 row2_col2_tile.html('<h4 style="text-align: center">After</h4>')
