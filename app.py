@@ -7,15 +7,15 @@ from io import StringIO
 from transformers import pipeline
 from PIL import Image
 
-st.markdown(
-    r"""
-    <style>
-    .stDeployButton {
-            visibility: hidden;
-        }
-    </style>
-    """, unsafe_allow_html=True
-)
+# st.markdown(
+#     r"""
+#     <style>
+#     .stDeployButton {
+#             visibility: hidden;
+#         }
+#     </style>
+#     """, unsafe_allow_html=True
+# )
 
 hide_menu_style = """
         <style>
