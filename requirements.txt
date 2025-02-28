@@ -10,7 +10,7 @@ filelock==3.15.4
 fsspec==2024.6.1
 gitdb==4.0.11
 GitPython==3.1.43
-huggingface-hub==0.23.4
+huggingface-hub==0.29.1
 idna==3.7
 imageio==2.34.2
 intel-openmp==2021.4.0
@@ -51,14 +51,14 @@ sympy==1.12.1
 tbb==2021.13.0
 tenacity==8.5.0
 tifffile==2024.7.2
-tokenizers==0.19.1
+tokenizers==0.21.0
 toml==0.10.2
 toolz==0.12.1
 torch==2.3.1
 torchvision==0.18.1
 tornado==6.4.1
 tqdm==4.66.4
-transformers==4.42.3
+transformers==4.49.0
 typing==3.7.4.3
 typing_extensions==4.12.2
 tzdata==2024.1
